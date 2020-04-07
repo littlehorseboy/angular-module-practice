@@ -1,0 +1,8 @@
+<div>
+  <p>article-list works!</p>
+
+  <article *ngFor="let item of data">
+    <app-article-header [item]="item" (delete)="delete($event)"></app-article-header>
+    <app-article-body [item]="item"></app-article-body>
+  </article>
+</div>
