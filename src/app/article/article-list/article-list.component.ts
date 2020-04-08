@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article-list.component.scss']
 })
 export class ArticleListComponent implements OnInit {
+  counter = 0;
+
   data = [
     { a: 0, b: 0 },
     { a: 1, b: 1 },
@@ -15,6 +17,9 @@ export class ArticleListComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    setTimeout(() => {
+      this.counter += 1;
+    }, 1000);
   }
 
   delete(value: any) {
