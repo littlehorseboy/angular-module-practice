@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import 'prismjs/components/prism-typescript';
 
 @Component({
   selector: 'app-code-highlighter-demo',

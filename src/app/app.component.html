@@ -2,9 +2,9 @@
 
 <!-- <app-input-group-demo></app-input-group-demo> -->
 
-<!-- <app-code-highlighter-demo></app-code-highlighter-demo> -->
+<app-code-highlighter-demo></app-code-highlighter-demo>
 
-<app-tab-menu-demo></app-tab-menu-demo>
+<!-- <app-tab-menu-demo></app-tab-menu-demo> -->
 
 <ng-template #data let-input let-another="another">
   <div>{{ input | json }}</div>
@@ -12,3 +12,7 @@
 </ng-template>
 
 <div *ngTemplateOutlet="data; context: {$implicit: {value: 1}, another: {value: 2}}"></div>
+
+<!-- <app-steps-demo></app-steps-demo> -->
+
+<app-slide-menu-demo></app-slide-menu-demo>
