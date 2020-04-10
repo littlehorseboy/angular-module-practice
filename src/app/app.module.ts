@@ -17,6 +17,7 @@ import { CodeHighlighterDemoComponent } from './code-highlighter-demo/code-highl
 import { TabMenuDemoComponent } from './tab-menu-demo/tab-menu-demo.component';
 import { StepsDemoComponent } from './steps-demo/steps-demo.component';
 import { SlideMenuDemoComponent } from './slide-menu-demo/slide-menu-demo.component';
+import { PanelMenuDemoComponent } from './panel-menu-demo/panel-menu-demo.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SlideMenuDemoComponent } from './slide-menu-demo/slide-menu-demo.compon
     CodeHighlighterDemoComponent,
     TabMenuDemoComponent,
     StepsDemoComponent,
-    SlideMenuDemoComponent
+    SlideMenuDemoComponent,
+    PanelMenuDemoComponent
   ],
   imports: [
     BrowserModule,
